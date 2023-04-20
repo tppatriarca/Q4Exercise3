@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Exercise 3</title>
+</head>
+<body bgcolor="79AAFF">
+	<h1>JavaScript Arithmetic Operators</h1>
+	<div class="container" style="font-size: 1cm;">
+		<p><mark>x = 5, y = 10</mark></p>
+		<ol type="1.">
+
+			<li>x + y = 15  <strong id="p1"></strong></li>
+			<li>x - y = -5  <strong id="p2"></strong></li>
+			<li>x * y = 50 <strong id="p3"></strong></li>
+			<li>x / y = 2  <strong id="p4"></strong></li>
+			<li>x % y = 5  <strong id="p5"></strong></li>
+			
+
+		</ol>
+
+		<script>
+			var x= 5;
+			var y= 10;
+
+			var sum = x + y;
+			var difference = x - y;
+			var product = y * x;
+			var quotient = y / x;
+			var remainder = x % y;
+
+			alert("The Sum of x and y is "+sum + "\n" + "The Difference of x and y is "+difference + "\n" + "The Product of x and y is "+product + "\n" + "The Quotient of x and y is "+quotient + "\n" + "The Remainder of x and y is "+remainder)
+
+			//variable declaration;assignment of values
+			document.getElementById("p1").innerHTMl = x + y;
+			document.getElementById("p2").innerHTMl = x - y;
+			document.getElementById("p3").innerHTMl = y * x;
+			document.getElementById("p4").innerHTMl = y / x;
+			document.getElementById("p5").innerHTMl = x % y;
+		</script>
+	</div>
+</body>
+</html>
